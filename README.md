@@ -41,7 +41,7 @@ ETL/ELT pipelines · SQL query optimization · Schema migrations · Data quality
 
 ### Machine learning and scientific computing
 
-![PyTorch](https://img.shields.io/static/v1?label=&message=PyTorch&color=EE4C2C&style=flat-square&logo=pytorch&logoColor=white) ![LightGBM](https://img.shields.io/static/v1?label=&message=LightGBM&color=345B40&style=flat-square&logo=&logoColor=white) ![scikit-learn](https://img.shields.io/static/v1?label=&message=scikit-learn&color=F7931E&style=flat-square&logo=scikitlearn&logoColor=white) ![NumPy](https://img.shields.io/static/v1?label=&message=NumPy&color=013243&style=flat-square&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/static/v1?label=&message=Pandas&color=150458&style=flat-square&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/static/v1?label=&message=Matplotlib&color=11557C&style=flat-square&logo=&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![LightGBM](https://img.shields.io/static/v1?label=&message=LightGBM&color=345B40&style=flat-square&logo=&logoColor=white) ![scikit-learn](https://img.shields.io/static/v1?label=&message=scikit-learn&color=F7931E&style=flat-square&logo=scikitlearn&logoColor=white) ![NumPy](https://img.shields.io/static/v1?label=&message=NumPy&color=013243&style=flat-square&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/static/v1?label=&message=Pandas&color=150458&style=flat-square&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/static/v1?label=&message=Matplotlib&color=11557C&style=flat-square&logo=&logoColor=white)
 
 Anomaly detection · Transfer learning · Image classification · Model evaluation
 
