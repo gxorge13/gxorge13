@@ -77,6 +77,17 @@ CI/CD · Automated testing · Production debugging
 
 ## Projects
 
+### [YouTube Analytics Pipeline — Data Engineering](https://github.com/gxorge13/youtube-analytics-pipeline)
+
+A containerized pipeline that extracts public YouTube statistics and reconciles them into staging and core warehouse schemas.
+
+- Orchestrates paginated API extraction and PostgreSQL loading with Apache Airflow.
+- Preserves dated raw snapshots, transforms ISO 8601 durations, and classifies short-form videos.
+- Runs locally with Docker Compose, Redis, and Celery; includes synthetic sample data, automated tests, and CI.
+
+**Technologies:** Python · Apache Airflow · PostgreSQL · Docker · Redis · GitHub Actions  
+[Explore the architecture and quick start →](https://github.com/gxorge13/youtube-analytics-pipeline#readme)
+
 ### [3D TicTacToe — Embedded Game](https://github.com/gxorge13/3D-TicTacToe)
 
 A joint ECE243 project with **Selim Abdelwahab**, built for the Nios II / DE1-SoC environment.
@@ -88,7 +99,7 @@ A joint ECE243 project with **Selim Abdelwahab**, built for the Nios II / DE1-So
 **Technologies:** C · Nios II · DE1-SoC · Python  
 [Explore the code and hardware setup →](https://github.com/gxorge13/3D-TicTacToe#readme)
 
-### [Hyperspectral Image Denoising — PyTorch Research Prototype](https://github.com/gxorge13/DarkNoise_EAM)
+### [Hyperspectral Image Denoising — PyTorch Research Prototype](https://github.com/gxorge13/hyperspectral-image-denoising)
 
 An experimental pipeline that reconstructs hyperspectral image patches from inputs with synthetic Gaussian noise.
 
@@ -97,9 +108,9 @@ An experimental pipeline that reconstructs hyperspectral image patches from inpu
 - Includes PSNR and per-band SSIM evaluation, training-loss plots, and reconstruction comparisons.
 
 **Technologies:** Python · PyTorch · NumPy · TorchMetrics · scikit-image · Matplotlib  
-[Explore the architecture and evaluation limits →](https://github.com/gxorge13/DarkNoise_EAM#readme)
+[Explore the architecture and evaluation limits →](https://github.com/gxorge13/hyperspectral-image-denoising#readme)
 
-### [Medical Image Classification — APS360 Team Project](https://github.com/gxorge13/APS360_Project)
+### [Medical Image Classification — APS360 Team Project](https://github.com/gxorge13/medical-image-classification)
 
 A university team project exploring classification across cancer, normal, and COVID image categories.
 
@@ -108,4 +119,4 @@ A university team project exploring classification across cancer, normal, and CO
 - Evaluates predictions with confusion matrices, precision, recall, F1, and accuracy.
 
 **Technologies:** Python · PyTorch · torchvision · scikit-learn · NumPy  
-[Explore the implementation and team credits →](https://github.com/gxorge13/APS360_Project#readme)
+[Explore the implementation and team credits →](https://github.com/gxorge13/medical-image-classification#readme)
