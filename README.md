@@ -79,14 +79,14 @@ CI/CD · Automated testing · Production debugging
 
 ### [YouTube Analytics Pipeline — Data Engineering](https://github.com/gxorge13/youtube-analytics-pipeline)
 
-A containerized pipeline that extracts public YouTube statistics and reconciles them into staging and core warehouse schemas.
+A project I made to learn more about data engineering and Airflow. It collects public video statistics from the YouTube API and stores them in PostgreSQL.
 
-- Orchestrates paginated API extraction and PostgreSQL loading with Apache Airflow.
-- Preserves dated raw snapshots, transforms ISO 8601 durations, and classifies short-form videos.
-- Runs locally with Docker Compose, Redis, and Celery; includes synthetic sample data, automated tests, and CI.
+- Airflow handles the API extraction and database update workflows.
+- Each run saves the raw response before loading cleaned data into staging and core tables.
+- Docker Compose runs Airflow, PostgreSQL, Redis, and Celery locally.
 
 **Technologies:** Python · Apache Airflow · PostgreSQL · Docker · Redis · GitHub Actions  
-[Explore the architecture and quick start →](https://github.com/gxorge13/youtube-analytics-pipeline#readme)
+[See how it works →](https://github.com/gxorge13/youtube-analytics-pipeline#readme)
 
 ### [3D TicTacToe — Embedded Game](https://github.com/gxorge13/3D-TicTacToe)
 
